@@ -1,5 +1,5 @@
 import cleanArray from '../utils/cleanArray';
-import nonConstructibleChange from '../utils/nonConstructibleChange';
+import nonConstructibleChange from '../../algorithms/nonConstructibleChange';
 
 import { useRef, useState } from 'react';
 

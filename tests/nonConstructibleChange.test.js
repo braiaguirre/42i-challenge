@@ -1,4 +1,5 @@
-const nonConstructibleChange = require('../algorithms/nonConstructibleChange');
+import { test, expect } from 'vitest';
+import nonConstructibleChange from '../algorithms/nonConstructibleChange';
 
 test('Case 1 / Empty array.', () => {
   const coins = [];

@@ -1,5 +1,5 @@
 import cleanArray from '../utils/cleanArray';
-import twoNumberSum from '../utils/twoNumberSum';
+import twoNumberSum from '../../algorithms/twoNumberSum';
 
 import { useRef, useState } from 'react';
 

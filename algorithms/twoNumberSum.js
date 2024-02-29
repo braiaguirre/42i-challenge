@@ -19,4 +19,4 @@ const twoNumberSum = (nums, target) => {
     return []; 
 }
 
-module.exports = twoNumberSum;
+export default twoNumberSum;

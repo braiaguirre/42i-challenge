@@ -1,4 +1,5 @@
-const twoNumberSum = require('../algorithms/twoNumberSum');
+import { test, expect } from 'vitest';
+import twoNumberSum from '../algorithms/twoNumberSum';
 
 test('Case 1 / Pair exists at the beginning of the array.', () => {
   const numbers = [2, 7, 11, 15];

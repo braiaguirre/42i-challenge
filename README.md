@@ -1,8 +1,8 @@
 # 42i Challenge
 
-This document outlines the setup and usage instructions for the assigned challenge.
-
 **Author**: Brian Aguirre
+
+This document outlines the setup and usage instructions for the assigned challenge.
 
 ## Live version
 
@@ -14,10 +14,8 @@ This document outlines the setup and usage instructions for the assigned challen
 
 ## Technologies
 
-- React
-- Node
-- Jest
-- Babel
+- React (Vite)
+- Vitest
 
 ## Folder structure
 
@@ -40,7 +38,7 @@ You can find the algorithms and tests in **/algorithms** and **/tests** respecti
 - Open http://localhost:5173 in your browser.
 
 ## Algorithms testing
-Run ``npm test`` on the root directory.
+Run ``npm run test`` on the root directory.
 
 ## Troubleshooting
 
