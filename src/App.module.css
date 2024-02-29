@@ -7,6 +7,11 @@
     margin: 0 auto;
     padding: 2rem;
     line-height: 28px;
+    color: #b4b4b4;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #ffffff;
 }
 
 h1 {
@@ -23,8 +28,16 @@ h4 {
 }
 
 p {
-    color: #b4b4b4;
     font-size: 14px;
+}
+
+a:link, a:visited, a:active {
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 select {
@@ -55,7 +68,7 @@ button {
     cursor: pointer;
 }
 
-input, button, select {
+input, button, select, a {
     transition: 200ms;
     outline: 0px;
 }

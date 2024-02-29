@@ -6,7 +6,8 @@ const TwoNumberSum = () => {
       <div className={ styles.container }>
         <ul>
           <li>Brian Aguirre</li>
-          <li>aguirre.brianalexis94@gmail.com</li>
+          <li><a href="https://github.com/braiaguirre">github.com/braiaguirre</a></li>
+          <li><a href="mailto:aguirre.brianalexis94@gmail.com">aguirre.brianalexis94@gmail.com</a></li>
         </ul>
       </div>
     </>

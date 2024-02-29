@@ -1,4 +1,6 @@
 .container {
     border-top: 1px solid #ffffff86;
-    margin-top: 60px;
+    padding-top: 10px;
+    margin-top: 50px;
+    text-align: right;
 }
