@@ -11,4 +11,5 @@ const twoNumberSum = (nums, target) => {
 }
   
 export default twoNumberSum;
+module.exports = twoNumberSum;
   

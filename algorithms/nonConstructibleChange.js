@@ -14,3 +14,4 @@ const nonConstructibleChange = (coins) => {
 }
 
 export default nonConstructibleChange;
+module.exports = nonConstructibleChange;
