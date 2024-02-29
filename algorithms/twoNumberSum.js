@@ -1,4 +1,4 @@
-const findPairWithSum = (nums, target) => {
+const twoNumberSum = (nums, target) => {
     const numSet = new Set();
 
     for (let num of nums) {
@@ -10,5 +10,5 @@ const findPairWithSum = (nums, target) => {
     return []; 
 }
   
-module.exports = findPairWithSum;
+export default twoNumberSum;
   

@@ -13,4 +13,4 @@ const nonConstructibleChange = (coins) => {
     return minChange;
 }
 
-module.exports = nonConstructibleChange;
+export default nonConstructibleChange;
