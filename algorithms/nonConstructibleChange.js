@@ -17,6 +17,7 @@ const nonConstructibleChange = (coins) => {
         minChange += coin;
     }
 
+    // return minimum change if none of the previous cases happened
     return minChange;
 }
 
