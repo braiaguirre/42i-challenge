@@ -23,19 +23,26 @@ You can find the algorithms and tests in **/algorithms** and **/tests** respecti
 
 ## Web application
 
-#### Automatic setup
+Three options are provided to run the application: Docker, bash script (no Docker), and manual.
+
+### Docker
+
+1. **Check**: Docker should be properly installed. Run ``docker -v``.
+2. **Build**: Run ``docker build . -t "42i-challenge:v1.0"`` on the root directory.
+3. **Run**: Run ``docker run -p 5173:5173 42i-challenge:v1.0``.
+4. **Access**: Open your browser and go to http://localhost:5173.
+
+#### Automatic script setup (no Docker)
 
 1. Run ``bash start.sh`` on the root directory.
+2. **Access**: Open your browser and go to http://localhost:5173.
 
-#### Problem with automatic setup? Install and run manually
+#### Manual install and run
 
 1. **Cloning repository**: Clone this repository to your computer.
 2. **Install dependencies**: Run ``npm i`` on the root directory.
 3. **Start the app**: Run ``npm run dev`` on the root directory.
-
-#### Access
-
-- Open http://localhost:5173 in your browser.
+4. **Access**: Open your browser and go to http://localhost:5173.
 
 ## Algorithms testing
 Run ``npm run test`` on the root directory.
