@@ -40,6 +40,10 @@ You can find the algorithms and tests in **/algorithms** and **/tests** respecti
 ## Algorithms testing
 Run ``npm run test`` on the root directory.
 
+## AI usage
+
+AI has been used to check for possible algorithm's complexity improvements; it didn't suggest any major changes though, only the usage of a Set instead of an Object in the Two Number Sum function.
+
 ## Troubleshooting
 
 - Check the terminal output for any errors during setup or startup.
